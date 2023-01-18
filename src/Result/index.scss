@@ -1,0 +1,26 @@
+
+
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(232, 229, 229);
+   
+    &__formbox{
+        height: 50vh;
+        width: 110vh;
+       margin-left: 20%;
+       border: 1px solid gray;
+       box-shadow: 0px 0px 12px -3px black;
+       padding: 40px;
+       background-color: whitesmoke;
+       
+    }
+}
+   
+
+.rowCard{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+
+}
