@@ -1,17 +1,16 @@
-.list{
+.list {
     top: 185px;
-margin-left: 150px;
-width: 1000px;
-height: 566px;
-background: #FFFFFF 0% 0% no-repeat padding-box;
-box-shadow: 0px 3px 6px #00000029;
-border-radius: 16px;
-opacity: 1;
+    margin-left: 150px;
+    width: 1000px;
+    height: 666px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 16px;
+    opacity: 1;
 }
-    .icon__button{
-        margin: 10px;
-    }
-
+.icon__button {
+    margin: 10px;
+}
 
 .App {
     background-color: white;
@@ -19,19 +18,16 @@ opacity: 1;
         top: 0px;
         left: 0px;
         width: 1300px;
-        height: 70px;
+        height: 50px;
         background: #396cc5 0% 0% no-repeat padding-box;
         opacity: 1;
-
     }
 
-    &__Logo{
-        top: 0px;
-        margin-left:-1000px;
-        height:80px;
+    &__Logo {
+        top: 10px;
+        margin-left: -1000px;
+        height: 50px;
         opacity: 1;
-
-
     }
     &__btn {
         background: #ffffff 0% 0% no-repeat padding-box;
@@ -40,6 +36,9 @@ opacity: 1;
         opacity: 1;
         color: #396cc5;
         margin-right: -600px;
-
+        margin-top: 10px;
+    }
+    &__presenter{
+        background-color: rgb(239, 238, 238);
     }
 }

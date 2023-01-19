@@ -39,7 +39,6 @@ export const Student_Data = [
         label: "Hindi Score",
         isRequired: true,
       },
-     
     ],
   },
   {

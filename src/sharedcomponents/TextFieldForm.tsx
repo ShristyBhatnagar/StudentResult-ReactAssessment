@@ -2,6 +2,7 @@ import * as react from 'react'
 import { Control, Controller, useFormContext } from "react-hook-form";
 import {TextField} from '@fluentui/react'
 
+
 interface ITextField{
     name: string | number |any,
     typeOf: string | number,
@@ -37,6 +38,7 @@ const TextFieldForm =({
                     <TextField 
                     type={typeOf === 'number'? 'number': 'text'}
                     label={label}
+                    styles={{fieldGroup:{background:"whitesmoke",border:0}}}
                     disabled={isDisabled}
                     placeholder={placeholder}
                     {...field}
