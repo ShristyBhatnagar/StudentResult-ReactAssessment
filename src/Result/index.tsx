@@ -91,7 +91,10 @@ const StudentResult = () => {
 
   const createForm = async (updatedData: any) => {
     const generateNumber: any = Math.random();
-    const addedData = { ...updatedData, id: generateNumber };
+  const totalmarks:number=updatedData.english+updatedData.telugu+updatedData.hindi+updatedData.science+updatedData.social+updatedData.activities;
+    
+    const addedData = { ...updatedData, 'id': generateNumber,'total':totalmarks };
+ 
     try {
       const result = await axios.post(`http://localhost:5000/data`, addedData);
       setData(result.data);
@@ -116,15 +119,18 @@ const StudentResult = () => {
 
   return (
     <div className="container">
-      <div className="container__header">
-        <h1>Add Student Result </h1>
-      </div>
+     
       
       <div className="container__formbox">
+      <div className="container__header">
+        <h1>Add Student Result </h1>
+        
+      </div>
         <FormProvider {...StudentResultMethods}>
         <Link className="icon__button" to={`/view`}>
               <GrView size={20}  />View all data
             </Link>
+            <hr></hr>
           <form
             onSubmit={StudentResultMethods.handleSubmit(StudentResultSubmit)}
           >

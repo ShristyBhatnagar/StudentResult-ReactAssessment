@@ -1,25 +1,13 @@
 {
   "data": [
     {
-      "name": "jsxkjK",
-      "rollnumber": "jskfsd",
-      "english": 90,
-      "telugu": 90,
-      "hindi": 9,
-      "science": 64,
-      "social": 90,
-      "activities": 89,
-      "total": "56877",
-      "id": 0.148160070410011
-    },
-    {
-      "science": 90,
-      "telugu": 90,
-      "social": 90,
-      "hindi": 90,
-      "english": 90,
-      "rollnumber": "bhatnagar",
       "name": "srishti",
+      "rollnumber": "bhatnagar",
+      "english": 90,
+      "telugu": 90,
+      "hindi": 90,
+      "science": 90,
+      "social": 90,
       "id": 0.6979607561443983
     },
     {
@@ -53,6 +41,44 @@
       "rollnumber": "jasxlA",
       "name": "srishti",
       "id": 0.5749983183731269
+    },
+    {
+      "name": "jsxkjK",
+      "rollnumber": "jasxlA",
+      "id": 0.7885172529834501
+    },
+    {
+      "english": 90,
+      "rollnumber": "kskdlls;",
+      "name": "sakjhjak",
+      "id": 0.7243156540450031
+    },
+    {
+      "hindi": 90,
+      "english": 90,
+      "rollnumber": "bhatnagar",
+      "name": "sakjhjak",
+      "id": 0.05962045393650417
+    },
+    {
+      "hindi": 90,
+      "english": 90,
+      "rollnumber": "jasxlA",
+      "name": "sakjhjak",
+      "total": 180,
+      "id": 0.03341520793158237
+    },
+    {
+      "activities": 89,
+      "science": 90,
+      "telugu": 90,
+      "social": 90,
+      "hindi": 9,
+      "english": 56,
+      "rollnumber": "jasxlA",
+      "name": "srishti",
+      "total": 424,
+      "id": 0.18646275757735964
     }
   ]
 }

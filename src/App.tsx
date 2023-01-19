@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import "./View/index.scss";
 import View from "./View";
 import ViewItem from "./ViewItem";
-import Result from "./AddResult";
+import Result from "./Result";
 
 function App() {
   return (

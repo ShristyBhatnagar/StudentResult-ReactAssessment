@@ -12,6 +12,7 @@ import { HiPencil, HiEye, HiCircleStack } from "react-icons/hi2";
 import { MdOutlineDelete } from "react-icons/md";
 import "./index.scss";
 
+
 const View = () => {
   const [data, setData] = useState<any>();
   const getData = async () => {
@@ -107,8 +108,8 @@ const View = () => {
     },
     {
       key: "column10",
-      name: "Total",
-      fieldName: "totalmarks",
+      name: "total",
+      fieldName: "total",
       minWidth: 50,
       maxWidth: 50,
       isResizable: true,
@@ -123,29 +124,33 @@ const View = () => {
       onRender: (item: any) =>
         item && (
           <div className="icon">
+            
+           
             <Link className="icon__button" to={`/View/${item.id}`}>
-              <HiEye size={20} />
+              <HiEye color={"#2F303157"} size={20} />
             </Link>
             <Link className="icon__button" to={`/Update/${item.id}`}>
-              <HiPencil size={20} />
+              <HiPencil color={"#2F303157"} size={20} />
             </Link>
             <Link
               className="icon__button"
               onClick={() => deleteRequest(item.id)}
               to=""
             >
-              <MdOutlineDelete size={25} />
+              <MdOutlineDelete color={"#2F303157"} size={25} />
             </Link>
           </div>
         ),
     },
   ];
+  
   return (
     <div>
       <Link className="button" to="/Create">
         <PrimaryButton className="App__btn">Add</PrimaryButton>
       </Link>
       <h1>All Student's Result</h1>
+     
       <div className="list">
         {data && (
           <DetailsList
@@ -153,8 +158,10 @@ const View = () => {
             columns={columns}
             setKey="set"
             layoutMode={DetailsListLayoutMode.justified}
+            
           />
         )}
+        
       </div>
     </div>
   );
